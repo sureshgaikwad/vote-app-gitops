@@ -2,7 +2,7 @@
 
 The aim of this demo is to show how to interconnect [Tekton](https://tekton.dev/) Continuous Integration (CI) capabilities to [Argo CD](https://argoproj.github.io/argo-cd/) enhanced features for Continuous Delivery (CD) with [Red Hat OpenShift](https://try.openshift.com).
 
-![Architecture](images/demo-architecture.png)
+![Architecture](images/image.png)
 
 The flow of this demo is:
 
