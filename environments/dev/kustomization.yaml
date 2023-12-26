@@ -9,6 +9,6 @@ images:
 - digest: sha256:4e53664362b41c1ae497954898d568b659b4236dd2fab8486d8ddaf19ac08825
   name: quay.io/bluesman/vote-ui
   newName: quay.io/bluesman/vote-ui
-- digest: sha256:d47d964e7ae6cd543f3497313cbed36911f38042e205ad8b92ac97b035b15b61
+- digest: sha256:573046b5bb8cd48c1eda5ad0e257d3153df3c97be79fe6b416f9909d28894851
   name: quay.io/sureshgaikwad/vote-ui
   newName: quay.io/sureshgaikwad/vote-ui
