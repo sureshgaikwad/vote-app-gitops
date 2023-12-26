@@ -1,10 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-bases:
-  - ../../k8s/
 replicas:
-- name: vote-ui
-  count: 1
+- count: 1
+  name: vote-ui
 patches:
 - patch: |-
     - op: add
@@ -53,4 +51,8 @@ patches:
     kind: Route
     name: vote-ui
     version: v1
-
+resources:
+- ../../k8s/
+images:
+- name: quay.io/sureshgaikwad/vote-ui:latest
+  newName: quay.io/sureshgaikwad/vote-ui
