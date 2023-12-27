@@ -6,6 +6,6 @@ images:
 - digest: sha256:e01c8b22b0c88a18a76c28c6e37ea561c1addfa3fc421165c6f6de89a43d7616
   name: quay.io/sureshgaikwad/vote-api:latest
   newName: quay.io/sureshgaikwad/vote-api
-- digest: sha256:d95d33f6f84faa2c3809a86a20b91eac02b49b127596edf4d2f9326358a1214c
+- digest: sha256:d6e7c6e4433cb0c582db6332ac7dfffdfaa33de24fbee8e6d139575d01b98580
   name: quay.io/sureshgaikwad/vote-ui:latest
   newName: quay.io/sureshgaikwad/vote-ui
