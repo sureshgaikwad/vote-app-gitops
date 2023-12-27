@@ -54,6 +54,6 @@ patches:
 resources:
 - ../../k8s/
 images:
-- digest: sha256:d6e7c6e4433cb0c582db6332ac7dfffdfaa33de24fbee8e6d139575d01b98580
+- digest: sha256:040114c3bffab5e2908e801ef918454b3fd22d5e8aba732cdc4941510d3e9601
   name: quay.io/sureshgaikwad/vote-ui:latest
   newName: quay.io/sureshgaikwad/prod-vote-ui
