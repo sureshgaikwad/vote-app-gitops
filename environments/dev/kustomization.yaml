@@ -3,6 +3,9 @@ kind: Kustomization
 resources:
 - ../../k8s/
 images:
+- digest: sha256:e87f7ac05c4c7e55fd6785d60dad4a18dae6f6d96d7f91808c6c7a4357b1618e
+  name: quay.io/sureshgaikwad/vote-api
+  newName: quay.io/sureshgaikwad/vote-api
 - digest: sha256:f95e4f1454deca015390b9dcdd875d58fa36a9ef4228f1794bc6cdb9376cf1ad
   name: quay.io/sureshgaikwad/vote-api:latest
   newName: quay.io/sureshgaikwad/vote-api
